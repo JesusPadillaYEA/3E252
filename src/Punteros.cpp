@@ -10,7 +10,9 @@ int main (){
     *pNum = 25;
 
     cout << "direccion: " << pNum << '\n';
+    
     cout << "valor: " << *pNum << '\n';
+    
     cout << "valor: " << &pNum << '\n';
 
     cout << sizeof(pNum) << '\n';
